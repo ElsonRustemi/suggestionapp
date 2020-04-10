@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <img class="logo" src="/logo_1.png" alt="logo">
+        <h1 class="text-center">Get Your Search Going Already!</h1>
+    </div>
+
+    <div class="below_header">
+        <p class="first_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book.</p>
+        <img class="avatar" src="/avatar.jpg" alt="image">
+    </div>
+
+
+    <div class="selection">
+        <h2 class="genreHeader">Genres</h2>
+
+        <form id="form" action="/results.ejs" method="post">
+
+            <div class="row col-lg-6" id="checkboxId">
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="actionChecbox" type="checkbox" name="genre" value="28">
+                    <label class="custom-control-label" for="actionChecbox"> Action </label>
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="adventureChecbox" type="checkbox" name="genre" value="12">
+                    <label class="custom-control-label" for="adventureChecbox"> Adventure </label>
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="animationChecbox" type="checkbox" name="genre" value="16">
+                    <label class="custom-control-label" for="animationChecbox"> Animation </label>
+
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="comedyChecbox" type="checkbox" name="genre" value="35">
+                    <label class="custom-control-label" for="comedyChecbox"> Comedy </label>
+
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="fantasyChecbox" type="checkbox" name="genre" value="14">
+                    <label class="custom-control-label" for="fantasyChecbox"> Fantasy </label>
+                </div>
+
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="romanceChecbox" type="checkbox" name="genre" value="10749">
+                    <label class="custom-control-label" for="romanceChecbox"> Romance </label>
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="scienceFictionChecbox" type="checkbox" name="genre"
+                        value="878">
+                    <label class="custom-control-label" for="scienceFictionChecbox"> Science Fiction </label>
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="MysteryChecbox" type="checkbox" name="genre" value="9648">
+                    <label class="custom-control-label" for="MysteryChecbox"> Mystery </label>
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="familyChecbox" type="checkbox" name="genre" value="10751">
+                    <label class="custom-control-label" for="familyChecbox"> Family </label>
+                </div>
+
+                <div class="custom-control custom-checkbox col-sm-3">
+                    <input class="custom-control-input" id="dramaChecbox" type="checkbox" name="genre" value="18">
+                    <label class="custom-control-label" for="dramaChecbox"> Drama </label>
+                </div>
+
+            </div>
+
+            <button type="submit" class="submit btn btn-primary">Search Result</button>
+            <button type="reset" class="reset btn btn-secondary">Reset</button>
+
+        </form>
+
+    </div>
+
+
+    <div class="footer">
+        <p>Developed by manga_boy &copy; 2020 </p>
+    </div>
+
+
+</body>
+
+</html>

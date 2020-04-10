@@ -1,0 +1,174 @@
+body {
+  height: 100%;
+}
+
+.header {
+  position: relative;
+  background-color: #35b084;
+  margin: auto;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.title {
+  margin-top: 5%;
+  width: auto;
+  height: auto;
+}
+
+.text-center{
+  position: absolute;
+  left: 30rem;
+  top: 1rem;
+}
+
+#resultsHeaderText {
+  position: absolute;
+  left: 35rem;
+  top: 1rem;
+}
+
+.logo {
+  left: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: white;
+}
+
+.below_header {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 150px;
+}
+
+.first_p {
+  position: absolute;
+  left: 25rem;
+  top: 3.5rem;
+  width: 800px;
+}
+
+.avatar {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 15rem;
+  top: 2.15rem;
+}
+
+/* Form */
+.selection {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  padding: 25px;
+}
+
+#form {
+  position: relative;
+  height: 350px;
+}
+
+.genreHeader {
+  position: absolute;
+  left: 15rem;
+  top: 0.5rem;
+  width: 100px;
+
+}
+
+.selection .submit {
+  position: absolute;
+  left: 65rem;
+  top: 17rem; 
+}
+
+.selection .reset {
+  position: absolute;
+  left: 55rem;
+  top: 17rem; 
+}
+
+/* Checkbox Bootstrap */
+
+#checkboxId {
+  position: relative;
+  height: 250px;
+  left: 390px; 
+  top: 25px;
+  max-width: 1000px;
+}
+
+.custom-control {
+  height: 50px;
+  padding: 0 25px 0 20px;
+}
+
+/*result*/
+
+.test {
+  position: relative;
+}
+
+#another-test {
+  position: relative;
+  left: 0.5rem;
+  top: 1.0rem;
+  width: 1500px;
+  height: 2200px;
+}
+
+.container {
+  position: relative;
+  width: 270px;
+  height: 390px;
+  margin: 20px 50px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.poster {
+  position: relative;
+  right: 15px;
+  width: 269px; 
+  height: 250px; 
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  width: 150px;
+  height: 25px;
+}
+
+.card-text {
+  width: 250px;
+  height: 72px;
+}
+
+.button-paragraph {
+  position: relative;
+  bottom: 30px;
+  width: 125px;
+}
+
+p .read {
+  width: 105px;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2.5rem; 
+  background-color: #35b084;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
